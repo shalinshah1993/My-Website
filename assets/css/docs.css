@@ -52,8 +52,8 @@ content: '';
 display: block;
 position: absolute;
 background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
-background-color: #eee;
-opacity: .9;
+background-color: #000;
+opacity: .85;
 }
 
 .navbar {
@@ -78,7 +78,7 @@ line-height: 32px;
 /* Body -------------------------------------------------- */
 
 body {
-  min-height: 2000px;
+  min-height: 500px;
 }
 
 /* Footer -------------------------------------------------- */
@@ -91,7 +91,7 @@ body {
   background-color: #f5f5f5;
 }
 .footer p {
-  margin-bottom: 0;
+  margin-bottom: 0px;
   color: #777;
 }
 .footer-links {
@@ -104,5 +104,3 @@ body {
 .footer-links li:first-child {
   padding-left: 0;
 }
-
-
